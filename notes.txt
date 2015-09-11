@@ -1,0 +1,12 @@
+
+Stack Overflow question
+http://stackoverflow.com/questions/32459925/
+
+Oxford University contest
+https://spivey.oriel.ox.ac.uk/corner/Programming_competition_results
+
+Thomas Dybdahl Ahle's solution
+https://github.com/thomasahle/numberlink
+- this chap showed that Numberlink is NP-complete in the number of colors,
+  not in the size of the grid
+
