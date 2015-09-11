@@ -13,7 +13,7 @@ for name in sorted(os.listdir(puzzle_dir)):
     in_lines = open(name).readlines()[1:]
     for ix, line in enumerate(in_lines[:-1]):
       out_lines.append("    '%s'," % (line.strip()))
-    out_lines.append("    '%s'" % (line.strip()))
+    out_lines.append("    '%s'" % (in_lines[-1].strip()))
     out_lines.append('  ],')
 
 out_lines.pop()
