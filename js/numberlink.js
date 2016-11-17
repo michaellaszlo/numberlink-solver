@@ -17,7 +17,7 @@ Solver.readPuzzle = function (name) {
   return puzzle;
 };
 
-Solver.puzzle = Solver.readPuzzle('aiko');
+Solver.puzzle = Solver.readPuzzle('loopy');
 
 Solver.message = function (line, replace) {
   line = line || '';
@@ -169,7 +169,7 @@ window.onload = function () {
           return;
         }
         var elapsed = (Date.now() - startTime) / 1000;
-        Solver.message('\nsolved in ' + elapsed + ' s\n');
+        Solver.message('solved in ' + elapsed + ' s');
         display();
         finished = true;
         return;
